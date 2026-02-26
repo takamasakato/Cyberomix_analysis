@@ -1,4 +1,4 @@
-# Spatial Transcriptomics Analysis (Cyberomix-style Implementation)
+# Spatial Transcriptomics Analysis
 
 空間トランスクリプトームデータ（Visium HD）に対して、
 核セグメンテーションと遺伝子発現情報を統合し、
@@ -42,11 +42,12 @@ Pythonで一貫して実装しています。
 
 Python / Scanpy / Squidpy / StarDist / GeoPandas  
 NumPy / pandas / matplotlib / AnnData  
+
 空間トランスクリプトーム解析・画像解析・空間統計処理を統合した実装
 
 ---
 
-## 実装内容
+## 実装内容(Contribution)
 
 ・核セグメンテーション（StarDist）による細胞領域抽出  
 ・画像座標と遺伝子発現データの空間統合処理（spatial join）  
